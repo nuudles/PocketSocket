@@ -15,5 +15,7 @@ FOUNDATION_EXPORT double PocketSocket_tvOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char PocketSocket_tvOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PocketSocket_tvOS/PublicHeader.h>
-
-
+#import <PocketSocket/PSWebSocket.h>
+#import <PocketSocket/PSWebSocketServer.h>
+#import <PocketSocket/PSWebSocketDriver.h>
+#import <PocketSocket/PSWebSocketTypes.h>

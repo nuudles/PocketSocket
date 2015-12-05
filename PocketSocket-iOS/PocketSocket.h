@@ -15,3 +15,7 @@ FOUNDATION_EXPORT double PocketSocket_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char PocketSocket_iOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PocketSocket_iOS/PublicHeader.h>
+#import <PocketSocket/PSWebSocket.h>
+#import <PocketSocket/PSWebSocketServer.h>
+#import <PocketSocket/PSWebSocketDriver.h>
+#import <PocketSocket/PSWebSocketTypes.h>
