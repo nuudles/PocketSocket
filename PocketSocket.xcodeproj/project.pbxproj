@@ -16,6 +16,49 @@
 		275D3AE11B02811E0013B9A9 /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34018B37DEC00BAE47A /* PSWebSocketNetworkThread.m */; };
 		275D3AE21B02811E0013B9A9 /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
 		275D3AE41B02811E0013B9A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E30D18B37DD500BAE47A /* Foundation.framework */; };
+		303B28281C1242BE0003795C /* PocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B28271C1242BE0003795C /* PocketSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B283A1C1243720003795C /* PSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E35118B37DF300BAE47A /* PSWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B283B1C1243720003795C /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E35218B37DF300BAE47A /* PSWebSocket.m */; };
+		303B283C1C1243720003795C /* PSWebSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2A05D918B5BBEC0066EEA4 /* PSWebSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B283D1C1243720003795C /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
+		303B283E1C1243720003795C /* PSWebSocketDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33318B37DEC00BAE47A /* PSWebSocketDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B283F1C1243720003795C /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33418B37DEC00BAE47A /* PSWebSocketDriver.m */; };
+		303B28401C1243720003795C /* PSWebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33D18B37DEC00BAE47A /* PSWebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B28411C1243720003795C /* PSWebSocketBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33718B37DEC00BAE47A /* PSWebSocketBuffer.h */; };
+		303B28421C1243720003795C /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33818B37DEC00BAE47A /* PSWebSocketBuffer.m */; };
+		303B28431C1243720003795C /* PSWebSocketInflater.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33918B37DEC00BAE47A /* PSWebSocketInflater.h */; };
+		303B28441C1243720003795C /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33A18B37DEC00BAE47A /* PSWebSocketInflater.m */; };
+		303B28451C1243720003795C /* PSWebSocketDeflater.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33B18B37DEC00BAE47A /* PSWebSocketDeflater.h */; };
+		303B28461C1243720003795C /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33C18B37DEC00BAE47A /* PSWebSocketDeflater.m */; };
+		303B28471C1243720003795C /* PSWebSocketInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33E18B37DEC00BAE47A /* PSWebSocketInternal.h */; };
+		303B28481C1243720003795C /* PSWebSocketNetworkThread.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33F18B37DEC00BAE47A /* PSWebSocketNetworkThread.h */; };
+		303B28491C1243720003795C /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34018B37DEC00BAE47A /* PSWebSocketNetworkThread.m */; };
+		303B284A1C1243720003795C /* PSWebSocketUTF8Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E34118B37DEC00BAE47A /* PSWebSocketUTF8Decoder.h */; };
+		303B284B1C1243720003795C /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34218B37DEC00BAE47A /* PSWebSocketUTF8Decoder.m */; };
+		303B284C1C1243720003795C /* PSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E35118B37DF300BAE47A /* PSWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B284D1C1243720003795C /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E35218B37DF300BAE47A /* PSWebSocket.m */; };
+		303B284E1C1243720003795C /* PSWebSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2A05D918B5BBEC0066EEA4 /* PSWebSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B284F1C1243720003795C /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
+		303B28501C1243720003795C /* PSWebSocketDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33318B37DEC00BAE47A /* PSWebSocketDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B28511C1243720003795C /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33418B37DEC00BAE47A /* PSWebSocketDriver.m */; };
+		303B28521C1243720003795C /* PSWebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33D18B37DEC00BAE47A /* PSWebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303B28531C1243720003795C /* PSWebSocketBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33718B37DEC00BAE47A /* PSWebSocketBuffer.h */; };
+		303B28541C1243720003795C /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33818B37DEC00BAE47A /* PSWebSocketBuffer.m */; };
+		303B28551C1243720003795C /* PSWebSocketInflater.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33918B37DEC00BAE47A /* PSWebSocketInflater.h */; };
+		303B28561C1243720003795C /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33A18B37DEC00BAE47A /* PSWebSocketInflater.m */; };
+		303B28571C1243720003795C /* PSWebSocketDeflater.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33B18B37DEC00BAE47A /* PSWebSocketDeflater.h */; };
+		303B28581C1243720003795C /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33C18B37DEC00BAE47A /* PSWebSocketDeflater.m */; };
+		303B28591C1243720003795C /* PSWebSocketInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33E18B37DEC00BAE47A /* PSWebSocketInternal.h */; };
+		303B285A1C1243720003795C /* PSWebSocketNetworkThread.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33F18B37DEC00BAE47A /* PSWebSocketNetworkThread.h */; };
+		303B285B1C1243720003795C /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34018B37DEC00BAE47A /* PSWebSocketNetworkThread.m */; };
+		303B285C1C1243720003795C /* PSWebSocketUTF8Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E34118B37DEC00BAE47A /* PSWebSocketUTF8Decoder.h */; };
+		303B285D1C1243720003795C /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34218B37DEC00BAE47A /* PSWebSocketUTF8Decoder.m */; };
+		303B28601C1243870003795C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E38418B385DE00BAE47A /* libz.dylib */; };
+		303B28631C1243870003795C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E38418B385DE00BAE47A /* libz.dylib */; };
+		303B28641C1243B50003795C /* libcommonCrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE337EC718B4AE2C003F95B9 /* libcommonCrypto.dylib */; };
+		303B28651C1243D00003795C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE337EC918B4AE34003F95B9 /* Security.framework */; };
+		303B28661C1243D00003795C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE337EC918B4AE34003F95B9 /* Security.framework */; };
+		30744F571C1247030076A675 /* PocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B28341C12433B0003795C /* PocketSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE2A05DB18B5BBEC0066EEA4 /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
 		EE337EC318B4AE1F003F95B9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E38418B385DE00BAE47A /* libz.dylib */; };
 		EE337EC418B4AE23003F95B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E30D18B37DD500BAE47A /* Foundation.framework */; };
@@ -75,6 +118,12 @@
 
 /* Begin PBXFileReference section */
 		275D3AE91B02811E0013B9A9 /* libPocketSocket-Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPocketSocket-Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303B28251C1242BE0003795C /* PocketSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303B28271C1242BE0003795C /* PocketSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketSocket.h; sourceTree = "<group>"; };
+		303B28291C1242BE0003795C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303B28321C12433A0003795C /* PocketSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303B28341C12433B0003795C /* PocketSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketSocket.h; sourceTree = "<group>"; };
+		303B28361C12433B0003795C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2A05D918B5BBEC0066EEA4 /* PSWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketServer.h; sourceTree = "<group>"; };
 		EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketServer.m; sourceTree = "<group>"; };
 		EE337EC518B4AE28003F95B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -121,6 +170,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		303B28211C1242BE0003795C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B28651C1243D00003795C /* Security.framework in Frameworks */,
+				303B28601C1243870003795C /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303B282E1C12433A0003795C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B28661C1243D00003795C /* Security.framework in Frameworks */,
+				303B28631C1243870003795C /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEE5E30718B37DD500BAE47A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +202,7 @@
 			files = (
 				EE337ECC18B4AE46003F95B9 /* libSystem.dylib in Frameworks */,
 				EE337ECA18B4AE34003F95B9 /* Security.framework in Frameworks */,
+				303B28641C1243B50003795C /* libcommonCrypto.dylib in Frameworks */,
 				EE337EC618B4AE28003F95B9 /* CFNetwork.framework in Frameworks */,
 				EE337EC418B4AE23003F95B9 /* Foundation.framework in Frameworks */,
 				EE337EC318B4AE1F003F95B9 /* libz.dylib in Frameworks */,
@@ -144,11 +212,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303B28261C1242BE0003795C /* PocketSocket-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				303B28271C1242BE0003795C /* PocketSocket.h */,
+				303B28291C1242BE0003795C /* Info.plist */,
+			);
+			path = "PocketSocket-iOS";
+			sourceTree = "<group>";
+		};
+		303B28331C12433B0003795C /* PocketSocket-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				303B28341C12433B0003795C /* PocketSocket.h */,
+				303B28361C12433B0003795C /* Info.plist */,
+			);
+			path = "PocketSocket-tvOS";
+			sourceTree = "<group>";
+		};
 		EEE5E30118B37DD500BAE47A = {
 			isa = PBXGroup;
 			children = (
 				EEE5E30F18B37DD500BAE47A /* PocketSocket */,
 				EEE5E36418B37F8700BAE47A /* PSAutobahnClientTests */,
+				303B28261C1242BE0003795C /* PocketSocket-iOS */,
+				303B28331C12433B0003795C /* PocketSocket-tvOS */,
 				EEE5E30C18B37DD500BAE47A /* Frameworks */,
 				EEE5E30B18B37DD500BAE47A /* Products */,
 			);
@@ -160,6 +248,8 @@
 				EEE5E30A18B37DD500BAE47A /* libPocketSocket.a */,
 				EEE5E36018B37F8700BAE47A /* PSAutobahnClientTests.xctest */,
 				275D3AE91B02811E0013B9A9 /* libPocketSocket-Mac.a */,
+				303B28251C1242BE0003795C /* PocketSocket.framework */,
+				303B28321C12433A0003795C /* PocketSocket.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +334,45 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		303B28221C1242BE0003795C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B28471C1243720003795C /* PSWebSocketInternal.h in Headers */,
+				303B284A1C1243720003795C /* PSWebSocketUTF8Decoder.h in Headers */,
+				303B28281C1242BE0003795C /* PocketSocket.h in Headers */,
+				303B28411C1243720003795C /* PSWebSocketBuffer.h in Headers */,
+				303B28431C1243720003795C /* PSWebSocketInflater.h in Headers */,
+				303B283A1C1243720003795C /* PSWebSocket.h in Headers */,
+				303B283E1C1243720003795C /* PSWebSocketDriver.h in Headers */,
+				303B28481C1243720003795C /* PSWebSocketNetworkThread.h in Headers */,
+				303B28451C1243720003795C /* PSWebSocketDeflater.h in Headers */,
+				303B283C1C1243720003795C /* PSWebSocketServer.h in Headers */,
+				303B28401C1243720003795C /* PSWebSocketTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303B282F1C12433A0003795C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B284E1C1243720003795C /* PSWebSocketServer.h in Headers */,
+				30744F571C1247030076A675 /* PocketSocket.h in Headers */,
+				303B28571C1243720003795C /* PSWebSocketDeflater.h in Headers */,
+				303B28591C1243720003795C /* PSWebSocketInternal.h in Headers */,
+				303B28501C1243720003795C /* PSWebSocketDriver.h in Headers */,
+				303B28551C1243720003795C /* PSWebSocketInflater.h in Headers */,
+				303B285C1C1243720003795C /* PSWebSocketUTF8Decoder.h in Headers */,
+				303B284C1C1243720003795C /* PSWebSocket.h in Headers */,
+				303B28531C1243720003795C /* PSWebSocketBuffer.h in Headers */,
+				303B285A1C1243720003795C /* PSWebSocketNetworkThread.h in Headers */,
+				303B28521C1243720003795C /* PSWebSocketTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		275D3AD91B02811E0013B9A9 /* PocketSocket-Mac */ = {
 			isa = PBXNativeTarget;
@@ -261,6 +390,42 @@
 			productName = PocketSocket;
 			productReference = 275D3AE91B02811E0013B9A9 /* libPocketSocket-Mac.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		303B28241C1242BE0003795C /* PocketSocket-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303B282C1C1242BE0003795C /* Build configuration list for PBXNativeTarget "PocketSocket-iOS" */;
+			buildPhases = (
+				303B28201C1242BE0003795C /* Sources */,
+				303B28211C1242BE0003795C /* Frameworks */,
+				303B28221C1242BE0003795C /* Headers */,
+				303B28231C1242BE0003795C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PocketSocket-iOS";
+			productName = "PocketSocket-iOS";
+			productReference = 303B28251C1242BE0003795C /* PocketSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		303B28311C12433A0003795C /* PocketSocket-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303B28371C12433B0003795C /* Build configuration list for PBXNativeTarget "PocketSocket-tvOS" */;
+			buildPhases = (
+				303B282D1C12433A0003795C /* Sources */,
+				303B282E1C12433A0003795C /* Frameworks */,
+				303B282F1C12433A0003795C /* Headers */,
+				303B28301C12433A0003795C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PocketSocket-tvOS";
+			productName = "PocketSocket-tvOS";
+			productReference = 303B28321C12433A0003795C /* PocketSocket.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		EEE5E30918B37DD500BAE47A /* PocketSocket */ = {
 			isa = PBXNativeTarget;
@@ -303,9 +468,15 @@
 		EEE5E30218B37DD500BAE47A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Zwopple Limited";
 				TargetAttributes = {
+					303B28241C1242BE0003795C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					303B28311C12433A0003795C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 					EEE5E35F18B37F8700BAE47A = {
 						TestTargetID = EEE5E30918B37DD500BAE47A;
 					};
@@ -326,11 +497,27 @@
 				EEE5E30918B37DD500BAE47A /* PocketSocket */,
 				275D3AD91B02811E0013B9A9 /* PocketSocket-Mac */,
 				EEE5E35F18B37F8700BAE47A /* PSAutobahnClientTests */,
+				303B28241C1242BE0003795C /* PocketSocket-iOS */,
+				303B28311C12433A0003795C /* PocketSocket-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		303B28231C1242BE0003795C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303B28301C12433A0003795C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEE5E35E18B37F8700BAE47A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +541,36 @@
 				275D3AE01B02811E0013B9A9 /* PSWebSocketInflater.m in Sources */,
 				275D3AE11B02811E0013B9A9 /* PSWebSocketNetworkThread.m in Sources */,
 				275D3AE21B02811E0013B9A9 /* PSWebSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303B28201C1242BE0003795C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B28491C1243720003795C /* PSWebSocketNetworkThread.m in Sources */,
+				303B283B1C1243720003795C /* PSWebSocket.m in Sources */,
+				303B284B1C1243720003795C /* PSWebSocketUTF8Decoder.m in Sources */,
+				303B28441C1243720003795C /* PSWebSocketInflater.m in Sources */,
+				303B283F1C1243720003795C /* PSWebSocketDriver.m in Sources */,
+				303B28421C1243720003795C /* PSWebSocketBuffer.m in Sources */,
+				303B283D1C1243720003795C /* PSWebSocketServer.m in Sources */,
+				303B28461C1243720003795C /* PSWebSocketDeflater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303B282D1C12433A0003795C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B285B1C1243720003795C /* PSWebSocketNetworkThread.m in Sources */,
+				303B284D1C1243720003795C /* PSWebSocket.m in Sources */,
+				303B285D1C1243720003795C /* PSWebSocketUTF8Decoder.m in Sources */,
+				303B28561C1243720003795C /* PSWebSocketInflater.m in Sources */,
+				303B28511C1243720003795C /* PSWebSocketDriver.m in Sources */,
+				303B28541C1243720003795C /* PSWebSocketBuffer.m in Sources */,
+				303B284F1C1243720003795C /* PSWebSocketServer.m in Sources */,
+				303B28581C1243720003795C /* PSWebSocketDeflater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +657,142 @@
 			};
 			name = Release;
 		};
+		303B282A1C1242BE0003795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PocketSocket-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zwopple.PocketSocket-iOS";
+				PRODUCT_NAME = PocketSocket;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		303B282B1C1242BE0003795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PocketSocket-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zwopple.PocketSocket-iOS";
+				PRODUCT_NAME = PocketSocket;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		303B28381C12433B0003795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PocketSocket-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zwopple.PocketSocket-tvOS";
+				PRODUCT_NAME = PocketSocket;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		303B28391C12433B0003795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PocketSocket-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zwopple.PocketSocket-tvOS";
+				PRODUCT_NAME = PocketSocket;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EEE5E32B18B37DD600BAE47A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,6 +810,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -473,7 +827,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -553,6 +907,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/lib/system",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zwopple.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -573,6 +928,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/lib/system",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zwopple.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -586,6 +942,24 @@
 			buildConfigurations = (
 				275D3AE71B02811E0013B9A9 /* Debug */,
 				275D3AE81B02811E0013B9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303B282C1C1242BE0003795C /* Build configuration list for PBXNativeTarget "PocketSocket-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303B282A1C1242BE0003795C /* Debug */,
+				303B282B1C1242BE0003795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303B28371C12433B0003795C /* Build configuration list for PBXNativeTarget "PocketSocket-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303B28381C12433B0003795C /* Debug */,
+				303B28391C12433B0003795C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

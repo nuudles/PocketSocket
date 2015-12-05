@@ -1,6 +1,10 @@
 PocketSocket
 ============
 
+<a href="https://github.com/Carthage/Carthage/issues/179">
+    <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" align="right" vspace="2px">
+</a>
+
 Objective-C websocket library for building things that work in realtime on iOS and OS X.
 
 ### Features
