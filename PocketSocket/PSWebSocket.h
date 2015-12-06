@@ -80,6 +80,7 @@ typedef NS_ENUM(NSInteger, PSWebSocketReadyState) {
  *  @return an initialized instance of PSWebSocket in client mode
  */
 + (instancetype)clientSocketWithRequest:(NSURLRequest *)request;
+- (instancetype)initClientSocketWithRequest:(NSURLRequest *)request;
 
 /**
  *  Initialize a PSWebSocket instance in server mode
@@ -91,6 +92,7 @@ typedef NS_ENUM(NSInteger, PSWebSocketReadyState) {
  *  @return an initialized instance of PSWebSocket in server mode
  */
 + (instancetype)serverSocketWithRequest:(NSURLRequest *)request inputStream:(NSInputStream *)inputStream outputStream:(NSOutputStream *)outputStream;
+- (instancetype)initServerWithRequest:(NSURLRequest *)request inputStream:(NSInputStream *)inputStream outputStream:(NSOutputStream *)outputStream;
 
 #pragma mark - Actions
 
